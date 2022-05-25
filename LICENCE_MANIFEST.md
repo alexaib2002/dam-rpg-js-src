@@ -6,18 +6,27 @@
     - Use and edit freely.
     - Not redistribute or resell this assets.
     - It can be used for game development and other productions.
-  
+
+- Playable Character:
+  - Autor: Game Endeavor
+  - URL: https://game-endeavor.itch.io/mystic-woods
+  - Licence: Custom
+    - You can only use these assets in non-commercial projects.
+    - You can modify the assets.
+    - You can not redistribute or resale, even if modified.
+    - Credit is appreciated but not required (https://game-endeavor.itch.io/)
+
 - Slime:
   - Creator: xokymw
   - URL: https://www.pngbyte.com
   - Licence: Non-commercial use, DMCA
 
-- Acid Slime:  
+- Acid Slime:
   - Creator: xokymw
   - URL: https://www.pngbyte.com
   - Licence: Non-commercial use, DMCA
 
-- Zombie: 
+- Zombie:
   - Creator: Segel
   - URL: https://opengameart.org/content/zombie-character
   - Licence: Public Domain (CC0)
