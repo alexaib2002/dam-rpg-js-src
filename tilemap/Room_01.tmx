@@ -126,7 +126,8 @@
 </data>
  </layer>
  <objectgroup color="#26a269" id="7" name="ObjPlayer">
-  <object id="1" name="EntPlayer" x="240" y="192" width="32" height="32"/>
+  <object id="1" name="EntPlayer" x="256" y="160" width="16" height="32">
+  </object>
   <object id="3" name="me.Trigger" x="448" y="176" width="32" height="16"/>
   <object id="5" name="me.Trigger" x="320" y="304" width="32" height="16"/>
   <object id="6" name="me.Trigger" x="240" y="112" width="32" height="16"/>
