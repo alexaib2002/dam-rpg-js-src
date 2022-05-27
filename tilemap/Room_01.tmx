@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="39">
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="40">
  <tileset firstgid="1" source="tilesets/BgTileset.tsx"/>
  <tileset firstgid="92" source="tilesets/ObjTileset.tsx"/>
  <tileset firstgid="134" source="tilesets/Building2.tsx"/>
@@ -101,18 +101,22 @@
 176,177,178,179,176,177,178,179,176,177,178,179,176,177,178,179,176,177,178,179,0,0,176,177,178,179,176,177,178,179,176,177,178,179,0
 </data>
  </layer>
- <objectgroup color="#26a269" id="7" name="ObjPlayer">
+ <objectgroup color="#26a269" id="7" name="Entities">
   <object id="1" name="EntPlayer" x="256" y="184" width="16" height="8"/>
   <object id="3" name="me.Trigger" x="448" y="176" width="32" height="16"/>
-  <object id="5" name="me.Trigger" x="320" y="304" width="32" height="16"/>
+  <object id="5" name="me.Trigger" x="320" y="304" width="32" height="16">
+   <properties>
+    <property name="to" value="room02"/>
+   </properties>
+  </object>
   <object id="6" name="me.Trigger" x="240" y="112" width="32" height="16"/>
   <object id="8" name="me.Trigger" x="48" y="112" width="32" height="16"/>
  </objectgroup>
  <objectgroup id="8" name="Collision">
   <object id="11" x="0" y="248" width="320" height="72"/>
-  <object id="13" x="416" y="112" width="96" height="64"/>
+  <object id="13" x="416" y="104" width="84" height="72"/>
   <object id="14" x="416" y="176" width="32" height="32"/>
-  <object id="15" x="480" y="176" width="32" height="32"/>
+  <object id="15" x="480" y="176" width="20" height="32"/>
   <object id="16" x="208" y="112" width="32" height="32"/>
   <object id="17" x="272" y="112" width="32" height="32"/>
   <object id="18" x="208" y="144" width="16" height="48"/>
@@ -122,8 +126,9 @@
   <object id="28" x="352" y="248" width="208" height="72"/>
   <object id="29" x="16" y="112" width="32" height="32"/>
   <object id="30" x="80" y="112" width="48" height="32"/>
-  <object id="36" x="16" y="0" width="496" height="112"/>
-  <object id="37" x="512" y="0" width="48" height="248"/>
+  <object id="36" x="16" y="0" width="288" height="112"/>
+  <object id="39" x="304" y="0" width="196" height="48"/>
+  <object id="37" x="500" y="0" width="60" height="248"/>
   <object id="38" x="0" y="0" width="16" height="248"/>
  </objectgroup>
 </map>
