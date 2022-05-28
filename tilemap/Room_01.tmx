@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="40">
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="43">
  <tileset firstgid="1" source="tilesets/BgTileset.tsx"/>
  <tileset firstgid="92" source="tilesets/ObjTileset.tsx"/>
  <tileset firstgid="134" source="tilesets/Building2.tsx"/>
@@ -103,16 +103,37 @@
  </layer>
  <objectgroup color="#26a269" id="7" name="Entities">
   <object id="1" name="EntPlayer" x="256" y="184" width="16" height="8"/>
-  <object id="3" name="me.Trigger" x="448" y="176" width="32" height="16"/>
-  <object id="5" name="me.Trigger" x="320" y="304" width="32" height="16">
+  <object id="3" name="me.Trigger" x="448" y="176" width="32" height="8">
+   <properties>
+    <property name="duration" type="int" value="500"/>
+    <property name="to" value="room13"/>
+   </properties>
+  </object>
+  <object id="5" name="me.Trigger" x="320" y="312" width="32" height="8">
    <properties>
     <property name="color" value="#fff"/>
     <property name="duration" type="int" value="500"/>
     <property name="to" value="room02"/>
    </properties>
   </object>
-  <object id="6" name="me.Trigger" x="240" y="112" width="32" height="16"/>
-  <object id="8" name="me.Trigger" x="48" y="112" width="32" height="16"/>
+  <object id="6" name="me.Trigger" x="240" y="112" width="32" height="8">
+   <properties>
+    <property name="duration" type="int" value="500"/>
+    <property name="to" value="room12"/>
+   </properties>
+  </object>
+  <object id="8" name="me.Trigger" x="48" y="112" width="32" height="8">
+   <properties>
+    <property name="duration" type="int" value="500"/>
+    <property name="to" value="room11"/>
+   </properties>
+  </object>
+  <object id="40" name="EntEnemySpawn" x="304" y="48" width="112" height="160">
+   <properties>
+    <property name="rate" type="float" value="100"/>
+   </properties>
+  </object>
+  <object id="41" x="140" y="196"/>
  </objectgroup>
  <objectgroup id="8" name="Collision">
   <object id="11" x="0" y="248" width="320" height="72"/>
