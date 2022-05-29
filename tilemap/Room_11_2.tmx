@@ -31,7 +31,7 @@
 </data>
  </layer>
  <objectgroup color="#26a269" id="4" name="Entities">
-  <object id="21" name="EntPlayer" x="179.135" y="41.4113" width="16" height="8"/>
+  <object id="21" name="EntPlayer" x="84" y="36" width="16" height="8"/>
   <object id="22" name="me.Trigger" x="208.542" y="31.9298" width="15.0725" height="8" rotation="270">
    <properties>
     <property name="duration" type="int" value="500"/>
