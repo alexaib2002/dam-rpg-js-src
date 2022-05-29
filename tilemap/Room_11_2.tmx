@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="23">
+ <tileset firstgid="1" source="tilesets/BgTileset_Interior.tsx"/>
+ <tileset firstgid="1993" source="tilesets/ObjTileset.tsx"/>
+ <layer id="1" name="BgFloor" width="15" height="10">
+  <data encoding="csv">
+0,369,370,370,370,370,370,370,370,370,370,370,370,371,0,
+0,289,289,289,289,289,289,289,289,289,289,289,314,312,0,
+0,289,289,289,289,289,289,289,289,289,289,289,289,289,0,
+0,289,289,289,289,289,289,289,289,289,289,289,289,289,0,
+0,289,289,289,289,289,289,289,289,289,289,289,289,289,0,
+0,289,289,289,289,289,289,289,289,289,289,289,289,289,0,
+0,289,289,289,289,289,289,289,289,289,289,289,289,289,0,
+0,289,289,289,289,289,289,289,289,289,289,289,289,289,0,
+0,289,289,289,289,289,289,289,289,289,289,289,289,289,0,
+0,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,0
+</data>
+ </layer>
+ <layer id="2" name="FgDecoration" width="15" height="10">
+  <data encoding="csv">
+0,761,731,1998,1998,731,1049,716,732,733,716,0,0,0,0,
+0,769,739,780,781,739,1057,724,740,741,724,0,0,0,0,
+0,0,0,788,789,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,755,0,0,0,0,0,0,0,
+0,959,0,0,0,0,742,743,744,0,0,0,0,953,0,
+0,0,0,0,0,755,750,751,752,755,0,0,0,953,0,
+0,0,0,0,0,0,758,759,760,0,0,0,0,0,0,
+0,0,0,0,959,0,0,755,0,0,0,957,0,0,0,
+1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,1998,0
+</data>
+ </layer>
+ <objectgroup color="#26a269" id="4" name="Entities">
+  <object id="21" name="EntPlayer" x="179.135" y="41.4113" width="16" height="8"/>
+  <object id="22" name="me.Trigger" x="208.542" y="31.9298" width="15.0725" height="8" rotation="270">
+   <properties>
+    <property name="duration" type="int" value="500"/>
+    <property name="to" value="room11"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Collision">
+  <object id="1" x="-0.499025" y="0" width="175.657" height="32.4366"/>
+  <object id="2" x="175.657" y="0.998051" width="47.4074" height="14.9708"/>
+  <object id="6" x="47.4074" y="31.9376" width="31.9376" height="15.4698"/>
+  <object id="7" x="96.3119" y="79.345" width="47.4074" height="47.9064"/>
+  <object id="8" x="144.218" y="95.8129" width="15.4698" height="15.9688"/>
+  <object id="9" x="111.782" y="63.8752" width="15.9688" height="14.9708"/>
+  <object id="10" x="80.3431" y="95.3138" width="15.4698" height="14.9708"/>
+  <object id="11" x="112.78" y="127.251" width="13.9727" height="15.4698"/>
+  <object id="12" x="0" y="1.49708" width="15.9688" height="157.692"/>
+  <object id="13" x="223.563" y="0.499025" width="15.9688" height="158.69"/>
+  <object id="14" x="191.127" y="143.22" width="31.9376" height="15.9688"/>
+  <object id="15" x="176.156" y="126.752" width="14.9708" height="16.4678"/>
+  <object id="16" x="208.094" y="78.846" width="15.4698" height="32.4366"/>
+  <object id="17" x="64.3743" y="127.75" width="15.4698" height="15.4698"/>
+  <object id="18" x="15.4698" y="78.846" width="15.9688" height="15.9688"/>
+  <object id="19" x="0.499025" y="143.22" width="239.033" height="15.9688"/>
+ </objectgroup>
+</map>
