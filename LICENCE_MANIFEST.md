@@ -55,3 +55,14 @@
   - Creator: adkto
   - URL: https://opengameart.org/content/grin-goblin
   - Licence: CC-BY-SA-3.0s
+
+
+- Fonts:
+  - Monster Friend Fore:
+    - Creator: TheFizzyNator
+    - URL: https://www.fontget.com/font/monster-friend-fore/
+    - Licence: Free for Commercial Use
+  - Early Game Boy:
+    - Creator: Jimmy Campbell
+    - URL: https://www.fontget.com/font/early-gameboy/
+    - Licence: Free for Commercial Use
