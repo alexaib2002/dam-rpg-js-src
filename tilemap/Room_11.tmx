@@ -94,7 +94,7 @@
   <object id="15" x="15.4765" y="95.761" width="15.4765" height="14.9929"/>
   <object id="16" x="31.4367" y="79.3172" width="47.3969" height="48.3642"/>
   <object id="17" x="80.7681" y="175.562" width="61.4225" height="31.9203"/>
-  <object id="18" name="Collision" x="160.569" y="239.886" width="62.8734" height="17.4111"/>
+  <object id="18" x="160.569" y="239.886" width="62.8734" height="17.4111"/>
   <object id="19" x="31.9203" y="239.403" width="47.3969" height="17.8947"/>
   <object id="20" x="14.5092" y="159.118" width="33.3713" height="15.9602"/>
   <object id="21" x="159.602" y="14.9929" width="64.808" height="15.4765"/>
