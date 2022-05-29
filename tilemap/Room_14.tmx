@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="17">
+ <tileset firstgid="1" source="tilesets/BgTileset_Interior.tsx"/>
+ <layer id="1" name="BgFloor" width="10" height="12">
+  <data encoding="csv">
+369,370,370,370,370,370,370,370,370,371,
+377,378,378,378,378,378,378,378,378,379,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,291,291,291,291,291,0,
+0,291,291,291,299,299,291,291,291,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="FgDecoration" width="10" height="12">
+  <data encoding="csv">
+0,0,0,0,0,1822,0,0,0,0,
+0,1833,1870,1871,0,1830,1852,1853,1856,0,
+0,1841,1878,1879,0,0,1860,1861,1864,0,
+0,0,1837,1837,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1838,0,0,0,
+0,0,1868,1869,0,0,0,0,1902,0,
+0,0,1876,1877,0,0,0,0,1902,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,1898,0,0,0,0,1898,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#26a269" id="3" name="Entities">
+  <object id="15" name="me.Trigger" x="63.9659" y="167.875" width="32.1307" height="8">
+   <properties>
+    <property name="duration" type="int" value="500"/>
+    <property name="to" value="room02"/>
+   </properties>
+  </object>
+  <object id="16" name="EntPlayer" x="78.5" y="135.5" width="16" height="8"/>
+ </objectgroup>
+ <objectgroup id="4" name="Collision">
+  <object id="1" x="0.5" y="-1" width="16" height="192.5"/>
+  <object id="2" x="0.5" y="176" width="159.5" height="15"/>
+  <object id="3" x="144" y="-1" width="15.5" height="192"/>
+  <object id="4" x="17" y="-1.5" width="46.5" height="49.5"/>
+  <object id="6" x="96.5" y="-1" width="47.5" height="48.5"/>
+  <object id="7" x="64" y="-1" width="32" height="31"/>
+  <object id="8" x="32.5" y="47.5" width="31" height="16"/>
+  <object id="9" x="96.5" y="79.5" width="17" height="16.5"/>
+  <object id="10" x="127.5" y="95.5" width="16.5" height="32.5"/>
+  <object id="11" x="112" y="160" width="16.5" height="16"/>
+  <object id="12" x="32" y="160" width="16" height="16"/>
+  <object id="13" x="32" y="96" width="32" height="32"/>
+ </objectgroup>
+</map>
