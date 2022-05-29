@@ -16,6 +16,11 @@
     - You can not redistribute or resale, even if modified.
     - Credit is appreciated but not required (https://game-endeavor.itch.io/)
 
+- Battle Background:
+  - Autor:
+  - URL:
+  - Licence:
+
 - Slime:
   - Creator: xokymw
   - URL: https://www.pngbyte.com
