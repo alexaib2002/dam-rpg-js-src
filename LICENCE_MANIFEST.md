@@ -1,6 +1,6 @@
 - Overworld TileSet:
   - Autor: Pipoya
-  - URL: https://pipoya.itch.io/pipoya-free-rpg-world-tileset-32x32-40x40-48x48
+  - URL: https://pipoya.itch.io/free-rpg-tileset-16x16
   - Licence: Custom
     - For commercial or personal use.
     - Use and edit freely.
@@ -60,7 +60,6 @@
   - Creator: adkto
   - URL: https://opengameart.org/content/grin-goblin
   - Licence: CC-BY-SA-3.0s
-
 
 - Fonts:
   - Monster Friend Fore:
